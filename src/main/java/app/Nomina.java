@@ -83,7 +83,7 @@ public class Nomina {
                 case 4:
                     // Eliminar un registro
                     System.out.println("Eliminacion de un registro en curso...");
-                    Long codigoRegistroAeliminar = Long.parseLong(JOptionPane.showInputDialog("Digite el codigo del registro a actualizar:"));
+                    Long codigoRegistroAeliminar = Long.parseLong(JOptionPane.showInputDialog("Digite el codigo del registro a eliminar:"));
                     // Para mayor seguridad envuelvo la busqueda en un objeto del tipo requerido
                     Nominanorm objetoAbuscarEliminar = new Nominanorm();
                     // Seteo los parametros de busqueda
